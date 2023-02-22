@@ -1,0 +1,24 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: #1aa;
+    text-align: center;
+}
+.container:hover{
+    background-color: chartreuse;
+}
+.inner{
+    background-color: blanchedalmond;
+}
+.inner:hover{
+background-color:chartreuse;
+}
