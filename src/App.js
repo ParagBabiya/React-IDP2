@@ -1,5 +1,7 @@
 import "./App.css";
 import CBcomp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassBasedComponent";
+import ClassComp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassComp";
+import LifeCycle from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/LifeCycle";
 // import Arrowfunc from "./Module2/ArrowFunction";
 // import LetConst from "./Module2/let-const/LetAndConst";
 // import { Exim } from "./Module2/ArrowFunction";
@@ -33,6 +35,7 @@ import CBcomp from "./DivingDeeper-into-component-and-internals/ClassBasedCompon
 // import Somedata from "./Module4/MediaQueryRadium/somedata";
 // import MediaQuery from "./Module4/MediaQueryRadium/MediaQuery";
 import MainComp from "./DivingDeeper-into-component-and-internals/SplitingAnAppIntoComponent/MainComp";
+import ClassStatefullComp from "./DivingDeeper-into-component-and-internals/StateinClassComponent/StateinClassComp";
 
 function App() {
   const users =[
@@ -79,7 +82,10 @@ function App() {
 {/* <Somedata/> */}
 {/* <MediaQuery/> */}
 {/* <MainComp/> */}
-<CBcomp/>
+{/* <CBcomp/> */}
+{/* <ClassComp/> */}
+{/* <ClassStatefullComp/> */}
+<LifeCycle/>
     </div>
   );
 }
