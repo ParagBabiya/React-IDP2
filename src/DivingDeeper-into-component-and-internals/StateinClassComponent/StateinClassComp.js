@@ -3,16 +3,16 @@ import React,{Component} from "react";
 export default class ClassStatefullComp extends Component{
 constructor(){
     super()
-}
-state={
-    out:'Yes'
+    this.state={
+        out:'Yes'
+    }
 }
 
 toggleOut=()=>{
     this.setState(prev =>{
         return {
            out: prev.out === "Yes"?"No":"Yes"}
-           this.toggleOut = this.toggleOut.bind(this)
+        //    this.toggleOut = this.toggleOut.bind(this)
     })
 }
 
