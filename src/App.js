@@ -1,6 +1,9 @@
 import "./App.css";
 import CBcomp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassBasedComponent";
 import ClassComp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassComp";
+import MainComponent from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/MainComponent";
+import PersonMain from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PersonMain";
+import Person from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PropsChange";
 import LifeCycle from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/LifeCycle";
 // import Arrowfunc from "./Module2/ArrowFunction";
 // import LetConst from "./Module2/let-const/LetAndConst";
@@ -85,7 +88,10 @@ function App() {
 {/* <CBcomp/> */}
 {/* <ClassComp/> */}
 {/* <ClassStatefullComp/> */}
-<LifeCycle/>
+{/* <LifeCycle/> */}
+<Person/>
+{/* <MainComponent/> */}
+{/* <PersonMain/> */}
     </div>
   );
 }
