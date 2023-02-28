@@ -1,17 +1,27 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Header2 extends Component {
-    constructor(props){
+  constructor(props) {
+    super(props);
 
-        super(props)
-    }
-    
-    render(){
+    this.state = {
+      count: 0,
+    };
+  }
 
-        return (
-          <div>
-            <h1>wELCOME, {this.props.username}</h1>
-          </div>
-        )
-    }
+  handleClick = () => {
+    this.setState = (prev => ({ count: prev.this.count + 1 }));
+  };
+
+  // componentDidMount=()=>{
+  // console.log("componentdidmoint")
+  // }
+  render() {
+    return (
+      <div>
+        <h1>wELCOME, {this.state.count}</h1>
+        <button onClick={this.handleClick}>CLick </button>
+      </div>
+    );
+  }
 }

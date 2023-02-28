@@ -1,10 +1,16 @@
 import "./App.css";
 import CBcomp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassBasedComponent";
 import ClassComp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassComp";
+import Header2 from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/Header2";
+import LifecycleComp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/LifecycleComp";
 import MainComponent from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/MainComponent";
 import PersonMain from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PersonMain";
 import Person from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PropsChange";
+import ComponentDidUpdate from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate";
+import ComponentDidUpdate2 from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate2";
+import ComponentWillUnmount from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentWillUnmount";
 import LifeCycle from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/LifeCycle";
+import WindowTracker from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/WindowTracker";
 // import Arrowfunc from "./Module2/ArrowFunction";
 // import LetConst from "./Module2/let-const/LetAndConst";
 // import { Exim } from "./Module2/ArrowFunction";
@@ -39,6 +45,7 @@ import LifeCycle from "./DivingDeeper-into-component-and-internals/LifeCycleInCo
 // import MediaQuery from "./Module4/MediaQueryRadium/MediaQuery";
 import MainComp from "./DivingDeeper-into-component-and-internals/SplitingAnAppIntoComponent/MainComp";
 import ClassStatefullComp from "./DivingDeeper-into-component-and-internals/StateinClassComponent/StateinClassComp";
+import UseEffect from "./DivingDeeper-into-component-and-internals/useEffect()InFunctionalComponent/useEffect";
 
 function App() {
   const users =[
@@ -89,9 +96,16 @@ function App() {
 {/* <ClassComp/> */}
 {/* <ClassStatefullComp/> */}
 {/* <LifeCycle/> */}
-<Person/>
+{/* <Person/> */}
 {/* <MainComponent/> */}
 {/* <PersonMain/> */}
+<UseEffect/>
+{/* <Header2/> */}
+{/* <LifecycleComp/> */}
+{/* <ComponentDidUpdate/> */}
+{/* <ComponentDidUpdate2/> */}
+{/* <ComponentWillUnmount/> */}
+{/* <WindowTracker/> */}
     </div>
   );
 }

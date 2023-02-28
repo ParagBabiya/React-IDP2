@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 export default class Person extends Component{
     constructor(){
+        console.log('Constructor...')
         super();
         this.state ={
             name:'',
@@ -42,7 +43,6 @@ shouldComponentUpdate(nextProps,nextState){
     return true;
 }
 
-
     getSnapshotBeforeUpdate(prevProps, prevState){
  console.log("[Props.change] getSnapshotBeforeUpdate")
  return {message:'Snapshot'}
@@ -53,9 +53,7 @@ componentDidUpdate(prevProps,prevState,snapshot){
     console.log(snapshot)
 
 }
- changehandler=()=>{
-
-}
+ 
     render(){
         return(
             <div>
