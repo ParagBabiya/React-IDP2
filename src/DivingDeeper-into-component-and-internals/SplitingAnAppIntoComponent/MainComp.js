@@ -3,7 +3,7 @@ import Footer from './Footer';
 import Header from './Header';
 import Movie from './Movie';
 
-function MainComp() {
+const MainComp= (()=> {
   const movies = [
     { id: 1, title: 'Movie 1' },
     { id: 2, title: 'Movie 2' },
@@ -17,6 +17,6 @@ function MainComp() {
       <Footer  />
     </div>
   );
-}
+},[])
 
-export default MainComp;
+export default MainComp

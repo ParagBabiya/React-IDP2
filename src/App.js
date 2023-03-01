@@ -6,11 +6,13 @@ import LifecycleComp from "./DivingDeeper-into-component-and-internals/ClassBase
 import MainComponent from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/MainComponent";
 import PersonMain from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PersonMain";
 import Person from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PropsChange";
+import HOCList from "./DivingDeeper-into-component-and-internals/HigherOrderComponent/HOC";
 import ComponentDidUpdate from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate";
 import ComponentDidUpdate2 from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate2";
 import ComponentWillUnmount from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentWillUnmount";
 import LifeCycle from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/LifeCycle";
 import WindowTracker from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/WindowTracker";
+import ShouldComponentUpdate from "./DivingDeeper-into-component-and-internals/ShouldComponentUpdate/ShouldComponentUpdate";
 // import Arrowfunc from "./Module2/ArrowFunction";
 // import LetConst from "./Module2/let-const/LetAndConst";
 // import { Exim } from "./Module2/ArrowFunction";
@@ -43,16 +45,17 @@ import WindowTracker from "./DivingDeeper-into-component-and-internals/LifeCycle
 // import Lists2 from "./Module3/FlexibleList/Lists";
 // import Somedata from "./Module4/MediaQueryRadium/somedata";
 // import MediaQuery from "./Module4/MediaQueryRadium/MediaQuery";
-import MainComp from "./DivingDeeper-into-component-and-internals/SplitingAnAppIntoComponent/MainComp";
-import ClassStatefullComp from "./DivingDeeper-into-component-and-internals/StateinClassComponent/StateinClassComp";
-import UseEffect from "./DivingDeeper-into-component-and-internals/useEffect()InFunctionalComponent/useEffect";
+// import MainComp from "./DivingDeeper-into-component-and-internals/SplitingAnAppIntoComponent/MainComp";
+// import ClassStatefullComp from "./DivingDeeper-into-component-and-internals/StateinClassComponent/StateinClassComp";
+// import UseEffect from "./DivingDeeper-into-component-and-internals/useEffect()InFunctionalComponent/useEffect";
+// import MyComp from "./DivingDeeper-into-component-and-internals/usememohook/usememo";
 
 function App() {
-  const users =[
-    {id:1,name:'om',result:'pass'},
-    {id:2,name:'jay',result:'pass'},
-    {id:3,name:'sam',result:'fail'},
-]
+//   const users =[
+//     {id:1,name:'om',result:'pass'},
+//     {id:2,name:'jay',result:'pass'},
+//     {id:3,name:'sam',result:'fail'},
+// ]
 
   return (
     <div className="App">
@@ -99,13 +102,16 @@ function App() {
 {/* <Person/> */}
 {/* <MainComponent/> */}
 {/* <PersonMain/> */}
-<UseEffect/>
+{/* <UseEffect/> */}
 {/* <Header2/> */}
 {/* <LifecycleComp/> */}
 {/* <ComponentDidUpdate/> */}
 {/* <ComponentDidUpdate2/> */}
 {/* <ComponentWillUnmount/> */}
 {/* <WindowTracker/> */}
+{/* <ShouldComponentUpdate/> */}
+{/* <MyComp/> */}
+<HOCList/>
     </div>
   );
 }
