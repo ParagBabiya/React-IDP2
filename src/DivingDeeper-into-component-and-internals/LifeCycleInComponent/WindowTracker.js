@@ -1,8 +1,7 @@
 import React from "react"
 import ComponentWillUnmount from "./ComponentWillUnmount"
-import WindowTracker from "./WindowTracker"
 
-export default class App extends React.Component {
+export default class WindowTracker extends React.Component {
     state = {
         show: true
     }

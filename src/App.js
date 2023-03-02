@@ -12,7 +12,13 @@ import ComponentDidUpdate2 from "./DivingDeeper-into-component-and-internals/Lif
 import ComponentWillUnmount from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentWillUnmount";
 import LifeCycle from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/LifeCycle";
 import WindowTracker from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/WindowTracker";
+import Product from "./DivingDeeper-into-component-and-internals/SettingStateCorrectly/Product";
 import ShouldComponentUpdate from "./DivingDeeper-into-component-and-internals/ShouldComponentUpdate/ShouldComponentUpdate";
+import ContextAPI from "./DivingDeeper-into-component-and-internals/useContexAPI/ContexAPI";
+import ComponentExample from "./DivingDeeper-into-component-and-internals/UsingPropsTypes/PropsTypes";
+import ProptypeinFunc from "./DivingDeeper-into-component-and-internals/UsingPropsTypes/ProptypeinFunc";
+import RefHook from "./DivingDeeper-into-component-and-internals/UsingRefs/RefHook";
+import UsingRefs from "./DivingDeeper-into-component-and-internals/UsingRefs/usingRefs";
 // import Arrowfunc from "./Module2/ArrowFunction";
 // import LetConst from "./Module2/let-const/LetAndConst";
 // import { Exim } from "./Module2/ArrowFunction";
@@ -111,7 +117,13 @@ function App() {
 {/* <WindowTracker/> */}
 {/* <ShouldComponentUpdate/> */}
 {/* <MyComp/> */}
-<HOCList/>
+{/* <HOCList/> */}
+{/* <Product/> */}
+{/* <ComponentExample/> */}
+{/* <ProptypeinFunc/> */}
+{/* <UsingRefs/> */}
+{/* <RefHook/> */}
+<ContextAPI/>
     </div>
   );
 }

@@ -17,3 +17,5 @@ const Person2 = ({money,handleIncrese}) => {
 }
 
 export default UpdatedComponent(Person2)
+
+

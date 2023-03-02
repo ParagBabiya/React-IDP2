@@ -15,6 +15,8 @@ export default class ComponentWillUnmount extends React.Component {
     }
     componentWillUnmount(){
         window.removeEventListener("resize", this.watchWidth)
+
+        //Disconect any Subscription
     }
     
     render() {
