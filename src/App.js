@@ -6,6 +6,8 @@ import LifecycleComp from "./DivingDeeper-into-component-and-internals/ClassBase
 import MainComponent from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/MainComponent";
 import PersonMain from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PersonMain";
 import Person from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PropsChange";
+import AuthProvider from "./DivingDeeper-into-component-and-internals/contexType/ContextType";
+import MainComp from "./DivingDeeper-into-component-and-internals/contexType/MainComp";
 import HOCList from "./DivingDeeper-into-component-and-internals/HigherOrderComponent/HOC";
 import ComponentDidUpdate from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate";
 import ComponentDidUpdate2 from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate2";
@@ -123,7 +125,9 @@ function App() {
 {/* <ProptypeinFunc/> */}
 {/* <UsingRefs/> */}
 {/* <RefHook/> */}
-<ContextAPI/>
+{/* <ContextAPI/> */}
+{/* <AuthProvider/> */}
+<MainComp/>
     </div>
   );
 }
