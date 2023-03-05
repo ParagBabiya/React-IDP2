@@ -1,26 +1,29 @@
 import "./App.css";
-import CBcomp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassBasedComponent";
-import ClassComp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassComp";
-import Header2 from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/Header2";
-import LifecycleComp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/LifecycleComp";
-import MainComponent from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/MainComponent";
-import PersonMain from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PersonMain";
-import Person from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PropsChange";
-import AuthProvider from "./DivingDeeper-into-component-and-internals/contexType/ContextType";
-import MainComp from "./DivingDeeper-into-component-and-internals/contexType/MainComp";
-import HOCList from "./DivingDeeper-into-component-and-internals/HigherOrderComponent/HOC";
-import ComponentDidUpdate from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate";
-import ComponentDidUpdate2 from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate2";
-import ComponentWillUnmount from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentWillUnmount";
-import LifeCycle from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/LifeCycle";
-import WindowTracker from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/WindowTracker";
-import Product from "./DivingDeeper-into-component-and-internals/SettingStateCorrectly/Product";
-import ShouldComponentUpdate from "./DivingDeeper-into-component-and-internals/ShouldComponentUpdate/ShouldComponentUpdate";
-import ContextAPI from "./DivingDeeper-into-component-and-internals/useContexAPI/ContexAPI";
-import ComponentExample from "./DivingDeeper-into-component-and-internals/UsingPropsTypes/PropsTypes";
-import ProptypeinFunc from "./DivingDeeper-into-component-and-internals/UsingPropsTypes/ProptypeinFunc";
-import RefHook from "./DivingDeeper-into-component-and-internals/UsingRefs/RefHook";
-import UsingRefs from "./DivingDeeper-into-component-and-internals/UsingRefs/usingRefs";
+import HttpReq from "./Reaching-Out-to-the-Web/httpReq/HttpReq";
+import Blog from "./Reaching-Out-to-the-Web/WebSiteHttpReq/Blog/Blog";
+// import CBcomp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassBasedComponent";
+// import ClassComp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassComp";
+// import Header2 from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/Header2";
+// import LifecycleComp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/LifecycleComp";
+// import MainComponent from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/MainComponent";
+// import PersonMain from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PersonMain";
+// import Person from "./DivingDeeper-into-component-and-internals/ComponentUpdate(forPropsChange)/PropsChange";
+// import AuthProvider from "./DivingDeeper-into-component-and-internals/contexType/ContextType";
+// import MainComp from "./DivingDeeper-into-component-and-internals/contexType/MainComp";
+// import HOCList from "./DivingDeeper-into-component-and-internals/HigherOrderComponent/HOC";
+// import ComponentDidUpdate from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate";
+// import ComponentDidUpdate2 from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentDidUpdate2";
+// import ComponentWillUnmount from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/ComponentWillUnmount";
+// import LifeCycle from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/LifeCycle";
+// import WindowTracker from "./DivingDeeper-into-component-and-internals/LifeCycleInComponent/WindowTracker";
+// import Product from "./DivingDeeper-into-component-and-internals/SettingStateCorrectly/Product";
+// import ShouldComponentUpdate from "./DivingDeeper-into-component-and-internals/ShouldComponentUpdate/ShouldComponentUpdate";
+// import ContextAPI from "./DivingDeeper-into-component-and-internals/useContexAPI/ContexAPI";
+// import ComponentExample from "./DivingDeeper-into-component-and-internals/UsingPropsTypes/PropsTypes";
+// import ProptypeinFunc from "./DivingDeeper-into-component-and-internals/UsingPropsTypes/ProptypeinFunc";
+// import RefHook from "./DivingDeeper-into-component-and-internals/UsingRefs/RefHook";
+// import UsingRefs from "./DivingDeeper-into-component-and-internals/UsingRefs/usingRefs";
+import HttpReqPract from "./Reaching-Out-to-the-Web/WebSiteHttpReq/HttpReqPract";
 // import Arrowfunc from "./Module2/ArrowFunction";
 // import LetConst from "./Module2/let-const/LetAndConst";
 // import { Exim } from "./Module2/ArrowFunction";
@@ -127,7 +130,10 @@ function App() {
 {/* <RefHook/> */}
 {/* <ContextAPI/> */}
 {/* <AuthProvider/> */}
-<MainComp/>
+{/* <MainComp/> */}
+{/* <HttpReqPract/> */}
+{/* <Blog/> */}
+<HttpReq/>
     </div>
   );
 }
