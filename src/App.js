@@ -1,6 +1,7 @@
 import "./App.css";
 import HttpReq from "./Reaching-Out-to-the-Web/httpReq/HttpReq";
 import Blog from "./Reaching-Out-to-the-Web/WebSiteHttpReq/Blog/Blog";
+// import Blog from "./Reaching-Out-to-the-Web/WebSiteHttpReq/Blog/Blog";
 // import CBcomp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassBasedComponent";
 // import ClassComp from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/ClassComp";
 // import Header2 from "./DivingDeeper-into-component-and-internals/ClassBasedComponent/Header2";
@@ -133,7 +134,8 @@ function App() {
 {/* <MainComp/> */}
 {/* <HttpReqPract/> */}
 {/* <Blog/> */}
-<HttpReq/>
+{/* <HttpReq/> */}
+<Blog/>
     </div>
   );
 }
